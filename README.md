@@ -1,16 +1,39 @@
-# counter_app
+# Flutter Counter App (Persistent Storage)
 
-A new Flutter project.
+This project is a simple Flutter counter application built as part of Week 2 of my internship.
 
-## Getting Started
+## 📱 Features
+- Increment and decrement counter
+- Real-time UI updates using `setState`
+- Persistent storage using `SharedPreferences`
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack
+- Flutter
+- Dart
+- SharedPreferences (for local storage)
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 How It Works
+1. The app loads the saved counter value from local storage on startup.
+2. User can:
+   - Increase the counter
+   - Decrease the counter
+3. Every change is saved using `SharedPreferences`.
+4. When the app restarts, the saved value is retrieved and displayed.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 📂 Project Structure
+- `home_screen.dart` → Contains counter logic, UI, and storage handling
+- `main.dart` → Entry point of the app
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ▶️ How to Run
+1. Clone the repository
+2. Run:
+
+
+## 🎯 Learning Outcomes
+- Understanding `setState` for state management
+- Using `SharedPreferences` for persistent data storage
+- Handling asynchronous operations (`async` / `await`)
+- Managing app lifecycle with `initState()`
+
+## 👨‍💻 Author
+Faraz Sarwar
